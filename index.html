@@ -1,0 +1,1766 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <title>Mohamed Maher Kmal | Front-End Developer</title>
+    <meta
+      name="description"
+      content="Mohamed Maher is a Front-End Developer and Computer and Information Systems student focused on building modern, responsive, and user-friendly web experiences."
+    />
+    <meta
+      name="keywords"
+      content="Mohamed Maher Kmal, Front-End Developer, Web Developer, Portfolio, HTML5, CSS3, JavaScript, Full-Stack Journey"
+    />
+    <meta name="author" content="Mohamed Maher Kmal" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Mohamed Maher | Front-End Developer" />
+    <meta
+      property="og:description"
+      content="Building modern, responsive, and user-friendly web experiences."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/profile.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="assets/profile.jpg" />
+
+    <!-- Google Fonts Preconnect & Stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- ======================================================================
+       NAVIGATION BAR
+       ====================================================================== -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="#home" class="nav-logo" aria-label="Mohamed Maher Home">
+          <span class="nav-logo-tag">&lt;</span>
+          <span>Mohamed Maher</span>
+          <span class="nav-logo-tag">/&gt;</span>
+        </a>
+
+        <!-- Desktop & Mobile Navigation Links -->
+        <nav id="nav-menu" class="nav-menu" aria-label="Main Navigation">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#journey" class="nav-link">Journey</a>
+          <a href="#education" class="nav-link">Education</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#career-goal" class="nav-link">Career Goal</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Navigation Action Controls -->
+        <div class="nav-actions">
+          <!-- Dark / Light Theme Toggle -->
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle Theme Mode"
+            title="Switch between Dark and Light mode"
+          >
+            <!-- Sun Icon (for Dark Mode) -->
+            <svg
+              class="theme-icon-sun"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Moon Icon (for Light Mode) -->
+            <svg
+              class="theme-icon-moon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            id="mobile-toggle"
+            class="mobile-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay -->
+    <div id="mobile-overlay" class="mobile-overlay" aria-hidden="true"></div>
+
+    <main>
+      <!-- ====================================================================
+         1. HERO SECTION
+         ==================================================================== -->
+      <section id="home" class="hero section">
+        <div class="container">
+          <div class="hero-grid">
+            <!-- Hero Text Content -->
+            <div class="hero-content reveal">
+              <div class="hero-status-pill">
+                <span class="status-dot"></span>
+                <span
+                  >Front-End Developer &bull; Learning Toward Full-Stack</span
+                >
+              </div>
+
+              <h1 class="hero-title">
+                Mohamed <span class="gradient-text">Maher</span>
+              </h1>
+
+              <div class="hero-role">&lt;Front-End Developer /&gt;</div>
+
+              <h2 class="hero-headline">
+                Building modern, responsive, and user-friendly web experiences.
+              </h2>
+
+              <p class="hero-intro">
+                Hi, I'm Mohamed Maher, a Front-End Developer passionate about
+                creating clean, responsive, and interactive websites using
+                modern web technologies.
+              </p>
+
+              <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary">
+                  <span>View Projects</span>
+                  <svg
+                    class="btn-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                  <span>Contact Me</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Hero Visual: Profile Photo Frame with Ambient Glow & Floating Badges -->
+            <div class="hero-visual reveal delay-1">
+              <div class="hero-photo-wrapper">
+                <div class="hero-photo-frame">
+                  <img
+                    src="assets/profile.jpg"
+                    alt="Mohamed Maher - Front-End Developer"
+                    onerror="
+                      this.onerror = null;
+                      this.src = 'assets/profile.svg';
+                    "
+                    loading="eager"
+                  />
+                </div>
+                <div class="hero-photo-glow"></div>
+
+                <!-- Floating Interactive Badges -->
+                <div class="hero-floating-badge badge-top-right">
+                  <div class="badge-icon-dot"></div>
+                  <span>Available for Projects</span>
+                </div>
+                <div class="hero-floating-badge badge-bottom-left">
+                  <span class="badge-role-tag">&lt;/&gt;</span>
+                  <span>Front-End Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         2. ABOUT SECTION
+         ==================================================================== -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-badge">About Me</span>
+            <h2 class="section-title">
+              Turning Ideas Into Functional Interfaces
+            </h2>
+            <p class="section-description">
+              A developer dedicated to mastering the modern web ecosystem step
+              by step.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <!-- Developer Code Mockup Visual -->
+            <div class="about-visual reveal">
+              <div class="code-mockup-card">
+                <div class="mockup-header">
+                  <div class="mockup-dots">
+                    <span class="mockup-dot dot-red"></span>
+                    <span class="mockup-dot dot-yellow"></span>
+                    <span class="mockup-dot dot-green"></span>
+                  </div>
+                  <div class="mockup-title">developer.config.ts</div>
+                  <div class="mockup-badge">ESNext</div>
+                </div>
+
+                <div class="mockup-body">
+                  <div class="code-line">
+                    <span class="line-num">01</span>
+                    <code
+                      ><span class="token-kw">const</span>
+                      <span class="token-var">developer</span> = {</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">02</span>
+                    <code
+                      >&nbsp;&nbsp;<span class="token-prop">name</span>:
+                      <span class="token-str">'Mohamed Maher'</span>,</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">03</span>
+                    <code
+                      >&nbsp;&nbsp;<span class="token-prop">role</span>:
+                      <span class="token-str">'Front-End Developer'</span
+                      >,</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">04</span>
+                    <code
+                      >&nbsp;&nbsp;<span class="token-prop">focus</span>:
+                      <span class="token-str">'Full-Stack Growth'</span>,</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">05</span>
+                    <code
+                      >&nbsp;&nbsp;<span class="token-prop">coreSkills</span>:
+                      [<span class="token-str">'HTML5'</span>,
+                      <span class="token-str">'CSS3'</span>,
+                      <span class="token-str">'JavaScript'</span>],</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">06</span>
+                    <code
+                      >&nbsp;&nbsp;<span class="token-prop">learning</span>:
+                      [<span class="token-str">'React'</span>,
+                      <span class="token-str">'Node.js'</span>,
+                      <span class="token-str">'Databases'</span>,
+                      <span class="token-str">'APIs'</span>],</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">07</span>
+                    <code
+                      >&nbsp;&nbsp;<span class="token-prop">passionate</span>:
+                      <span class="token-bool">true</span>,</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">08</span>
+                    <code
+                      >&nbsp;&nbsp;<span class="token-prop"
+                        >buildingResponsiveUI</span
+                      >: <span class="token-kw">function</span>() {</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">09</span>
+                    <code
+                      >&nbsp;&nbsp;&nbsp;&nbsp;<span class="token-kw"
+                        >return</span
+                      >
+                      <span class="token-str"
+                        >'Clean, modern, and accessible'</span
+                      >;</code
+                    >
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">10</span>
+                    <code>&nbsp;&nbsp;}</code>
+                  </div>
+                  <div class="code-line">
+                    <span class="line-num">11</span>
+                    <code>};</code>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- About Bio Content & Highlights -->
+            <div class="about-content reveal delay-1">
+              <div class="about-bio">
+                <p>
+                  I'm Mohamed Maher, a Front-End Developer and a Computer and
+                  Information Systems student. I have experience with HTML, CSS,
+                  and JavaScript, and I'm continuously improving my skills in
+                  web development.
+                </p>
+                <p>
+                  My goal is to become a Full-Stack Developer and build
+                  complete, scalable, and user-friendly web applications.
+                </p>
+                <p>
+                  I enjoy turning ideas and designs into functional websites and
+                  learning new technologies that help me become a better
+                  developer.
+                </p>
+              </div>
+
+              <!-- About Highlight Cards -->
+              <div class="about-highlights-grid">
+                <div class="highlight-card">
+                  <div class="highlight-label">Role</div>
+                  <div class="highlight-value">Front-End Developer</div>
+                </div>
+
+                <div class="highlight-card">
+                  <div class="highlight-label">Education</div>
+                  <div class="highlight-value">
+                    Computer and Information Systems
+                  </div>
+                </div>
+
+                <div class="highlight-card">
+                  <div class="highlight-label">Major</div>
+                  <div class="highlight-value">
+                    Management Information Systems
+                  </div>
+                </div>
+
+                <div class="highlight-card">
+                  <div class="highlight-label">Focus</div>
+                  <div class="highlight-value">Full-Stack Development</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         3. SKILLS SECTION
+         ==================================================================== -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-badge">Technical Stack</span>
+            <h2 class="section-title">Skills & Technologies</h2>
+            <p class="section-description">
+              Focusing on solid foundations, modern web practices, and active
+              continuous learning.
+            </p>
+          </div>
+
+          <div class="skills-container">
+            <!-- 1. Frontend Category -->
+            <div class="skills-category-group reveal">
+              <div class="category-header">
+                <div class="category-title-group">
+                  <div class="category-icon-wrap">
+                    <svg
+                      class="category-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="16 18 22 12 16 6"></polyline>
+                      <polyline points="8 6 2 12 8 18"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="category-title">Frontend Core</h3>
+                  </div>
+                </div>
+                <span class="category-badge">Foundation</span>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-html">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M4 3l1.8 16.2L12 21l6.2-1.8L20 3H4z"></path>
+                      <path d="M8 7h8M8 11h7.5l-.5 4.5L12 16.7l-3-1.2"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">HTML5</span>
+                    <span class="skill-level">Semantic &amp; SEO</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-css">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 2l8 4-8 16-8-16 8-4z"></path>
+                      <path d="M12 6v12"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">CSS3</span>
+                    <span class="skill-level"
+                      >Flexbox, Grid &amp; Animations</span
+                    >
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-js">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                      <path
+                        d="M9 8v6a2 2 0 0 1-2 2H6m9-8h2a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2h-1a2 2 0 0 0-2 2v1"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">JavaScript</span>
+                    <span class="skill-level">ES6+, DOM &amp; Async</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-responsive">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect
+                        x="2"
+                        y="3"
+                        width="20"
+                        height="14"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <line x1="8" y1="21" x2="16" y2="21"></line>
+                      <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">Responsive Design</span>
+                    <span class="skill-level">Mobile-First Layouts</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-dom">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="5" r="2"></circle>
+                      <circle cx="6" cy="19" r="2"></circle>
+                      <circle cx="18" cy="19" r="2"></circle>
+                      <path d="M12 7v5M12 12l-6 5M12 12l6 5"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">DOM Manipulation</span>
+                    <span class="skill-level">Event-Driven UI</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2. Currently Learning Category -->
+            <div class="skills-category-group reveal delay-1">
+              <div class="category-header">
+                <div class="category-title-group">
+                  <div class="category-icon-wrap">
+                    <svg
+                      class="category-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                      <path
+                        d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="category-title">
+                      Currently Learning &amp; Expanding
+                    </h3>
+                  </div>
+                </div>
+                <span class="category-badge">Active Growth</span>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-react">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <ellipse
+                        cx="12"
+                        cy="12"
+                        rx="10"
+                        ry="4.5"
+                        transform="rotate(30 12 12)"
+                      ></ellipse>
+                      <ellipse
+                        cx="12"
+                        cy="12"
+                        rx="10"
+                        ry="4.5"
+                        transform="rotate(90 12 12)"
+                      ></ellipse>
+                      <ellipse
+                        cx="12"
+                        cy="12"
+                        rx="10"
+                        ry="4.5"
+                        transform="rotate(150 12 12)"
+                      ></ellipse>
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="1.5"
+                        fill="currentColor"
+                      ></circle>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">React.js</span>
+                    <span class="skill-level">Components &amp; Hooks</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-git">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="6" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                      <circle cx="18" cy="9" r="3"></circle>
+                      <line x1="6" y1="9" x2="6" y2="15"></line>
+                      <path d="M18 12a9 9 0 0 1-9 9"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">Git &amp; GitHub</span>
+                    <span class="skill-level">Version Control</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-backend">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect
+                        x="2"
+                        y="2"
+                        width="20"
+                        height="8"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <rect
+                        x="2"
+                        y="14"
+                        width="20"
+                        height="8"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                      <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">Backend Basics</span>
+                    <span class="skill-level">Node.js Concepts</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-db">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                      <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                      <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">Databases</span>
+                    <span class="skill-level">SQL &amp; Data Storage</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-api">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="16 3 21 3 21 8"></polyline>
+                      <line x1="4" y1="20" x2="21" y2="3"></line>
+                      <polyline points="21 16 21 21 16 21"></polyline>
+                      <line x1="15" y1="15" x2="21" y2="21"></line>
+                      <line x1="4" y1="4" x2="9" y2="9"></line>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">REST APIs</span>
+                    <span class="skill-level"
+                      >Fetch &amp; Async Integration</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3. Methodologies Category -->
+            <div class="skills-category-group reveal delay-2">
+              <div class="category-header">
+                <div class="category-title-group">
+                  <div class="category-icon-wrap">
+                    <svg
+                      class="category-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"
+                      ></polygon>
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="category-title">Workflow &amp; Practices</h3>
+                  </div>
+                </div>
+                <span class="category-badge">Methodologies</span>
+              </div>
+
+              <div class="skills-grid">
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-problem">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                      ></path>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">Problem Solving</span>
+                    <span class="skill-level">Algorithms &amp; Logic</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-ui">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <rect
+                        x="3"
+                        y="3"
+                        width="18"
+                        height="18"
+                        rx="2"
+                        ry="2"
+                      ></rect>
+                      <line x1="3" y1="9" x2="21" y2="9"></line>
+                      <line x1="9" y1="21" x2="9" y2="9"></line>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">UI Implementation</span>
+                    <span class="skill-level">Design to Code</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-clean">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">Clean Code</span>
+                    <span class="skill-level">Maintainable &amp; Readable</span>
+                  </div>
+                </div>
+
+                <div class="skill-card">
+                  <div class="skill-icon-wrap icon-perf">
+                    <svg
+                      class="skill-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                  </div>
+                  <div class="skill-info">
+                    <span class="skill-name">Web Performance</span>
+                    <span class="skill-level"
+                      >Optimization &amp; Best Practices</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         4. PROJECTS SECTION
+         ==================================================================== -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-badge">Selected Work</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">
+              Functional web projects demonstrating responsive design, clean
+              semantic structure, and interactive logic.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project 1: Family Bakery -->
+            <article class="project-card reveal">
+              <div class="project-preview">
+                <img
+                  src="assets/project-bakery.png"
+                  alt="Family Bakery Website Preview"
+                  class="project-preview-img"
+                  loading="lazy"
+                />
+                <div class="project-preview-overlay">
+                  <span class="preview-badge">Artisan Showcase</span>
+                </div>
+              </div>
+
+              <div class="project-details">
+                <span class="project-category"
+                  >Food &amp; Hospitality Website</span
+                >
+                <h3 class="project-title">Family Bakery</h3>
+                <p class="project-description">
+                  A responsive artisan bakery website featuring a product
+                  showcase, interactive Google Maps location finder, brand
+                  story, and complete business hours schedule.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">Responsive UI</span>
+                  <span class="tech-tag">Flexbox</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="Bakery/Assignment3.html"
+                    class="btn btn-primary btn-sm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>View Project</span>
+                  </a>
+                  <a href="#" class="btn btn-outline btn-sm">
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 2: Fokir Creative Agency -->
+            <article class="project-card reveal delay-1">
+              <div class="project-preview">
+                <img
+                  src="assets/project-fokir.png"
+                  alt="Fokir Creative Agency Preview"
+                  class="project-preview-img"
+                  loading="lazy"
+                />
+                <div class="project-preview-overlay">
+                  <span class="preview-badge">Creative Portfolio</span>
+                </div>
+              </div>
+
+              <div class="project-details">
+                <span class="project-category">Agency &amp; Portfolio</span>
+                <h3 class="project-title">Fokir - Creative Agency</h3>
+                <p class="project-description">
+                  A modern portfolio website featuring a filterable gallery (Web
+                  Design, Graphic, Branding), client testimonials, animated
+                  counter statistics, video blog embed, and contact form.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">FontAwesome</span>
+                  <span class="tech-tag">CSS Grid</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="Fokir/Assignment4.html"
+                    class="btn btn-primary btn-sm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>View Project</span>
+                  </a>
+                  <a href="#" class="btn btn-outline btn-sm">
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 3: CinemaHub -->
+            <article class="project-card reveal delay-2">
+              <div class="project-preview">
+                <img
+                  src="assets/project-cinemahub.png"
+                  alt="CinemaHub Movie Platform Preview"
+                  class="project-preview-img"
+                  loading="lazy"
+                />
+                <div class="project-preview-overlay">
+                  <span class="preview-badge">SPA Architecture</span>
+                </div>
+              </div>
+
+              <div class="project-details">
+                <span class="project-category">Web Application &amp; SPA</span>
+                <h3 class="project-title">CinemaHub - Movie Platform</h3>
+                <p class="project-description">
+                  A dynamic single-page movie application featuring
+                  category-based filtering (Action, Comedy, Horror, Drama),
+                  custom client routing, and interactive movie catalog browsing.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript (ES6+)</span>
+                  <span class="tech-tag">SPA Routing</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="Movies/index.html"
+                    class="btn btn-primary btn-sm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>View Project</span>
+                  </a>
+                  <a href="#" class="btn btn-outline btn-sm">
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Project 4: Admin Dashboard -->
+            <article class="project-card reveal delay-3">
+              <div class="project-preview">
+                <img
+                  src="assets/project-dashboard.png"
+                  alt="Admin Dashboard Preview"
+                  class="project-preview-img"
+                  loading="lazy"
+                />
+                <div class="project-preview-overlay">
+                  <span class="preview-badge">Analytics &amp; KPI</span>
+                </div>
+              </div>
+
+              <div class="project-details">
+                <span class="project-category"
+                  >Data &amp; Management Dashboard</span
+                >
+                <h3 class="project-title">Admin &amp; Analytics Dashboard</h3>
+                <p class="project-description">
+                  An interactive management dashboard interface featuring KPI
+                  analytics metric cards (Users, Posts, Products, Revenue),
+                  sidebar navigation, and a live inventory data table.
+                </p>
+
+                <div class="project-tags">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">FontAwesome</span>
+                  <span class="tech-tag">Data Tables</span>
+                </div>
+
+                <div class="project-actions">
+                  <a
+                    href="Dashboard/index.html"
+                    class="btn btn-primary btn-sm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>View Project</span>
+                  </a>
+                  <a href="#" class="btn btn-outline btn-sm">
+                    <span>Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         5. DEVELOPMENT JOURNEY SECTION (VERTICAL TIMELINE)
+         ==================================================================== -->
+      <section id="journey" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-badge">Roadmap &amp; Milestones</span>
+            <h2 class="section-title">Development Journey</h2>
+            <p class="section-description">
+              An honest overview of my technical progression, current areas of
+              focus, and future full-stack direction.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <!-- Step 1: Frontend Development -->
+            <div class="timeline-item reveal">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <span class="timeline-tag">Foundation</span>
+                <h3 class="timeline-title">Frontend Development</h3>
+                <ul class="timeline-list">
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Learning and practicing HTML5</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Building responsive layouts with CSS3</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span
+                      >Developing interactive functionality with
+                      JavaScript</span
+                    >
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Creating personal and practice web projects</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span
+                      >Continuously improving Front-End development skills</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Step 2: Current Focus -->
+            <div class="timeline-item reveal delay-1">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <span class="timeline-tag">Current Stage</span>
+                <h3 class="timeline-title">Current Focus</h3>
+                <ul class="timeline-list">
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>React.js</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Git &amp; GitHub</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Backend Development</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Databases</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>APIs</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Step 3: Future Direction -->
+            <div class="timeline-item reveal delay-2">
+              <div class="timeline-marker"></div>
+              <div class="timeline-card">
+                <span class="timeline-tag">Aspiration</span>
+                <h3 class="timeline-title">Future Direction</h3>
+                <ul class="timeline-list">
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Full-Stack Development</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span>Building complete web applications</span>
+                  </li>
+                  <li class="timeline-list-item">
+                    <span class="timeline-bullet">&bull;</span>
+                    <span
+                      >Developing scalable and user-friendly applications</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         6. EDUCATION SECTION
+         ==================================================================== -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-badge">Academic Background</span>
+            <h2 class="section-title">Education</h2>
+            <p class="section-description">
+              Academic training bridging information systems management and
+              hands-on software development.
+            </p>
+          </div>
+
+          <div class="education-wrapper reveal">
+            <div class="education-card">
+              <div class="education-icon-wrap">
+                <svg
+                  class="education-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+
+              <div class="education-content">
+                <span class="education-period-badge">2022 – Present</span>
+                <h3 class="education-institution">
+                  Higher Institute of Computers and Information – Tanta
+                </h3>
+                <div class="education-degree">
+                  Bachelor's Degree in Computers and Information Systems
+                </div>
+                <div class="education-major">
+                  Major: Bussines Information Systems (BIS)
+                </div>
+                <p class="education-description">
+                  Computer and Information Systems student with a focus on
+                  Management Information Systems, while developing practical
+                  skills in web development and programming.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         7. SERVICES SECTION
+         ==================================================================== -->
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-badge">Capabilities</span>
+            <h2 class="section-title">What I Can Build</h2>
+            <p class="section-description">
+              Services and solutions based directly on my front-end development
+              capabilities.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <!-- Service 1 -->
+            <div class="service-card reveal">
+              <div class="service-icon-box">
+                <svg
+                  class="service-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <h3 class="service-title">Responsive Web Development</h3>
+              <p class="service-text">
+                Creating responsive websites that work smoothly across mobile,
+                tablet, and desktop devices.
+              </p>
+            </div>
+
+            <!-- Service 2 -->
+            <div class="service-card reveal delay-1">
+              <div class="service-icon-box">
+                <svg
+                  class="service-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="service-title">Front-End Development</h3>
+              <p class="service-text">
+                Building clean and interactive user interfaces using HTML, CSS,
+                and JavaScript.
+              </p>
+            </div>
+
+            <!-- Service 3 -->
+            <div class="service-card reveal delay-2">
+              <div class="service-icon-box">
+                <svg
+                  class="service-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M12 20h9"></path>
+                  <path
+                    d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="service-title">UI Implementation</h3>
+              <p class="service-text">
+                Turning website designs and ideas into functional, responsive
+                web interfaces.
+              </p>
+            </div>
+
+            <!-- Service 4 -->
+            <div class="service-card reveal delay-3">
+              <div class="service-icon-box">
+                <svg
+                  class="service-icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="service-title">Personal &amp; Small Web Projects</h3>
+              <p class="service-text">
+                Developing modern websites for personal projects, portfolios,
+                and small businesses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         8. CAREER GOAL SECTION
+         ==================================================================== -->
+      <section id="career-goal" class="section">
+        <div class="container">
+          <div class="career-goal-container reveal">
+            <div class="career-goal-card">
+              <div class="goal-badge">
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+                <span>Vision &amp; Ambition</span>
+              </div>
+
+              <blockquote class="career-statement">
+                &ldquo;My goal is to grow as a professional Full-Stack
+                Developer, strengthen my frontend skills, master backend
+                technologies, and build real-world applications that solve
+                meaningful problems.&rdquo;
+              </blockquote>
+
+              <div class="career-points-grid">
+                <div class="career-point-item">
+                  <svg
+                    class="career-point-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Strengthen Front-End Development</span>
+                </div>
+
+                <div class="career-point-item">
+                  <svg
+                    class="career-point-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Master React.js</span>
+                </div>
+
+                <div class="career-point-item">
+                  <svg
+                    class="career-point-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Learn Backend Development</span>
+                </div>
+
+                <div class="career-point-item">
+                  <svg
+                    class="career-point-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Work with Databases and APIs</span>
+                </div>
+
+                <div class="career-point-item">
+                  <svg
+                    class="career-point-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Build Complete Full-Stack Applications</span>
+                </div>
+
+                <div class="career-point-item">
+                  <svg
+                    class="career-point-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="20 6 9 17 4 12"></polyline>
+                  </svg>
+                  <span>Continuously learn modern technologies</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+         9. CONTACT SECTION
+         ==================================================================== -->
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-badge">Get in Touch</span>
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-description">
+              Have a project idea or want to work together? Feel free to get in
+              touch with me.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Info & Links Column -->
+            <div class="contact-info-col reveal">
+              <p class="contact-info-text">
+                I am always eager to collaborate on web projects, discuss new
+                opportunities, and connect with fellow developers.
+              </p>
+
+              <div class="contact-details-list">
+                <div class="contact-detail-card">
+                  <div class="detail-icon-wrap">
+                    <svg
+                      class="detail-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      ></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="detail-label">Email</div>
+                    <div class="detail-value">Your Email</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links Placeholders -->
+              <div class="social-links-wrap">
+                <div class="social-links-label">Connect Online</div>
+                <div class="social-links-row">
+                  <a
+                    href="#"
+                    class="social-btn"
+                    aria-label="GitHub Profile Placeholder"
+                  >
+                    <svg
+                      class="social-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                      ></path>
+                    </svg>
+                    <span>Your GitHub</span>
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/mmohamed-maher"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-btn"
+                    aria-label="LinkedIn Profile - Mohamed Maher"
+                  >
+                    <svg
+                      class="social-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                      ></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    <span>LinkedIn</span>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="social-btn"
+                    aria-label="YouTube Channel Placeholder"
+                  >
+                    <svg
+                      class="social-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.42a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"
+                      ></path>
+                      <polygon
+                        points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+                      ></polygon>
+                    </svg>
+                    <span>Your YouTube</span>
+                  </a>
+
+                  <a
+                    href="https://www.facebook.com/mohamed.maher.533951"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-btn"
+                    aria-label="Facebook Profile - Mohamed Maher"
+                  >
+                    <svg
+                      class="social-icon"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                      ></path>
+                    </svg>
+                    <span>Facebook</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Contact Form Card -->
+            <div class="contact-form-card reveal delay-1">
+              <form id="contact-form" class="contact-form" novalidate>
+                <div id="form-status" class="form-status" role="alert"></div>
+
+                <div class="form-group">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="form-input"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="your.email@example.com"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="form-textarea"
+                    placeholder="Tell me about your project or message..."
+                    required
+                  ></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                  <span>Send Message</span>
+                  <svg
+                    class="btn-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ======================================================================
+       10. FOOTER
+       ====================================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">Mohamed Maher</a>
+            <span class="footer-tagline"
+              >Front-End Developer &bull; Learning Toward Full-Stack</span
+            >
+          </div>
+
+          <nav class="footer-nav" aria-label="Footer Navigation">
+            <a href="#home" class="footer-nav-link">Home</a>
+            <a href="#about" class="footer-nav-link">About</a>
+            <a href="#skills" class="footer-nav-link">Skills</a>
+            <a href="#projects" class="footer-nav-link">Projects</a>
+            <a href="#journey" class="footer-nav-link">Journey</a>
+            <a href="#education" class="footer-nav-link">Education</a>
+            <a href="#services" class="footer-nav-link">Services</a>
+            <a href="#career-goal" class="footer-nav-link">Career Goal</a>
+            <a href="#contact" class="footer-nav-link">Contact</a>
+          </nav>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="copyright-text">
+            &copy; <span id="current-year">2026</span> Mohamed Maher. All Rights
+            Reserved.
+          </div>
+
+          <a href="#home" class="back-to-top" aria-label="Back to top of page">
+            <span>Back to Top</span>
+            <svg
+              class="back-to-top-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <polyline points="18 15 12 9 6 15"></polyline>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
